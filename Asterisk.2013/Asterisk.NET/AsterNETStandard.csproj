@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AsterNET</AssemblyName>
+    <RootNamespace>AsterNET</RootNamespace>
+    <Copyright>Copyright © 2017</Copyright>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Version>1.2.0</Version>
+    <Description>AsterNET an Asterisk FastAGI and AMI framework for .NET</Description>
+    <Authors>Ben Merrills</Authors>
+    <PackageLicenseUrl>https://github.com/AsterNET/AsterNET/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/AsterNET/AsterNET</PackageProjectUrl>
+    <PackageReleaseNotes>Please see: https://github.com/AsterNET/AsterNET/commits/master</PackageReleaseNotes>
+    <Company>Ben Merrills</Company>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/AsterNET/AsterNET</RepositoryUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <RootNamespace>AsterNET</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;LOGGER</DefineConstants>
+  </PropertyGroup>
+</Project>
